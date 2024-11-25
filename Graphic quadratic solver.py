@@ -36,7 +36,7 @@ def MainPage():
     TripleBracketExpansionButton = tk.Button(frameOne, text="Triple Bracket Expansion", bg="gray",
                                              fg="white", font=("Arial", 18), command=TripleBracketExpansion)
     TripleBracketExpansionButton.place(
-        relx=0.7, rely=0.4, relwidth=0.3, relheight=0.15)
+        relx=0.7, rely=0.4, relwidth =0.3, relheight=0.15)
 
     CubicExpansionButton = tk.Button(frameOne, text="Cubic Expansion", bg="gray",
                                      fg="white", font=("Arial", 18), command=CubicExpansion)
@@ -563,8 +563,7 @@ root = tk.Tk()
 canvas = tk.Canvas(root, height=HEIGHT, width=WIDTH)
 canvas.pack()
 
-background_image = tk.PhotoImage(
-    file="/Users/nathan/Documents/Coding/Dog background copy.png")
+background_image = tk.PhotoImage(file="Dog background copy.png")
 background_label = tk.Label(root, image=background_image)
 background_label.place(x=0.5, y=0.5, relwidth=1, relheight=1)
 
